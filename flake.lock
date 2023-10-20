@@ -1,0 +1,39 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1698090216,
+        "narHash": "sha256-sXr/LqJ1PeduvgeLptOLj+EZjXyaiJwi1YTkmeewhAg=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "9dc9be256dd723f2c63a0fecfd4f20e8a13acad6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "release": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-DtnucmfMJIDU2EdpaSpEl3K8MnpBvYNLMYDwojPoTgM=",
+        "type": "file",
+        "url": "https://github.com/ssddq/transfer/releases/download/binary/transfer"
+      },
+      "original": {
+        "type": "file",
+        "url": "https://github.com/ssddq/transfer/releases/download/binary/transfer"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "release": "release"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
